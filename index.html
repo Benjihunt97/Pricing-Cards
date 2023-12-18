@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e1428b0a9e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="flex flex-col justify-center items-center gap-3 min-h-screen bg-blue-100 py-10">
+
+    <div>
+        <div class="relative w-[70px] h-[35px] rounded-full bg-white bar">
+            <div class="w-[25px] h-[25px] bg-black rounded-full absolute top-[50%] -translate-y-[50%] left-1 ball">
+                <input type="checkbox" class="absolute w-full h-full rounded-full opacity-0 move-ball">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col gap-3 m-5 md:flex-row">
+
+        <div class="card bg-white p-5 flex flex-col items-center gap-7 text-center rounded-lg w-[230px] shadow-md">
+            <p class="text-lg font-bold">Basic</p>
+
+            <h1 class="text-4xl font-bold">$19.99</h1>
+
+            <ul class="flex flex-col gap-4">
+                <li class="">500GB storage</li>
+                <li class="">2 Users allowed</li>
+                <li class="">Send upto 3GB</li>
+            </ul>
+
+            <button class="bg-gradient-to-r from-blue-800 to-blue-500 w-full py-1 text-white font-semibold rounded-md">Select</button>
+        </div>
+
+        <div class="card bg-white p-5 flex flex-col items-center gap-7 text-center rounded-lg w-[230px] shadow-md">
+            <p class="text-lg font-bold">Professional</p>
+        
+            <h1 class="text-4xl font-bold">$24.99</h1>
+        
+            <ul class="flex flex-col gap-4">
+                <li class="">1TB storage</li>
+                <li class="">5 Users allowed</li>
+                <li class="">Send upto 10GB</li>
+            </ul>
+        
+            <button class="bg-gradient-to-r from-blue-800 to-blue-500 w-full py-1 text-white font-semibold rounded-md">Select</button>
+        </div>
+
+        <div class="card bg-white p-5 flex flex-col items-center gap-7 text-center rounded-lg w-[230px] shadow-md">
+            <p class="text-lg font-bold">Master</p>
+        
+            <h1 class="text-4xl font-bold">$39.99</h1>
+        
+            <ul class="flex flex-col gap-4">
+                <li class="">2TB storage</li>
+                <li class="">10 Users allowed</li>
+                <li class="">Send upto 20GB</li>
+            </ul>
+        
+            <button class="bg-gradient-to-r from-blue-800 to-blue-500 w-full py-1 text-white font-semibold rounded-md">Select</button>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    
+</body>
+</html>
