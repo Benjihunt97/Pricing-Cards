@@ -1,0 +1,18 @@
+.dark-scheme {
+    background: black;
+    color: white;
+}
+
+.light-scheme {
+    background: white;
+    color: black;
+}
+
+/* hover on cards */
+.card {
+    transition: all 400ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
